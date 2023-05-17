@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizApp.StartPage">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="logInButton" layoutX="285.0" layoutY="261.0" mnemonicParsing="false" onAction="#logInAction" prefHeight="33.0" prefWidth="154.0" text="Prijavi se preko sertifikata" />
+            <TextField fx:id="usernameField" layoutX="161.0" layoutY="136.0" prefHeight="39.0" prefWidth="278.0" promptText="korisničko ime">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordField" layoutX="161.0" layoutY="190.0" prefHeight="39.0" prefWidth="278.0" promptText="lozinka">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="signInButton" layoutX="161.0" layoutY="261.0" mnemonicParsing="false" onAction="#signInAction" prefHeight="33.0" prefWidth="103.0" text="Registruj se" />
+            <TextArea fx:id="textArea" layoutX="161.0" layoutY="312.0" prefHeight="200.0" prefWidth="278.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

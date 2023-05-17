@@ -1,0 +1,2 @@
+username:   klijent1   hash:   b626e2c29394cdb6cd758ad0720bda6b014d8a45f57dbe60efb2f322cac632f6
+username:   klijent2   hash:   58d5dfc519d8f27e752722d7762a145e91425cabeca6c50c4d73616f21902708

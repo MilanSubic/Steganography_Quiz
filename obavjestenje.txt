@@ -1,0 +1,5 @@
+Folderi pitanja, slike i izlaz su koristeni zbog provjere rada steganografije.
+Sada se projekat moze pokrenuti i bez njih. U folderu pictures su kriptovane slike,
+a u folderima rootCert, caCerts, clientCerts odgovarajuci sertifikati.
+
+Projekat pri pokretanju treba da se nalazi na Desktopu.
